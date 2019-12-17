@@ -1,21 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace openForensics
 {
 	public partial class MainForm : Form
 	{
-		public MainForm()
-		{
-			InitializeComponent();
-		}
+		public MainForm() => InitializeComponent();
 
 		private void MainForm_Load(object sender, EventArgs e)
 		{
@@ -35,7 +26,7 @@ namespace openForensics
 			checkBox1.ForeColor = ForeColor;
 			checkBox1.BackColor = BackColor;
 			checkBox1.FlatStyle = FlatStyle.Flat;
-			checkBox1.FlatAppearance.BorderColor= Color.FromArgb(67, 67, 67);
+			checkBox1.FlatAppearance.BorderColor = Color.FromArgb(67, 67, 67);
 			checkBox1.FlatAppearance.MouseDownBackColor = Color.FromArgb(27, 27, 27);
 			checkBox1.FlatAppearance.MouseOverBackColor = Color.FromArgb(62, 62, 62);
 			checkBox1.FlatAppearance.CheckedBackColor = Color.FromArgb(30, 30, 30);
