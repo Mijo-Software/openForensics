@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace openForensics
+namespace OpenForensics
 {
 	public partial class MainForm : Form
 	{

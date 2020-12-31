@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace openForensics
+[assembly: CLSCompliant(true)]
+namespace OpenForensics
 {
 	internal static class Program
 	{
