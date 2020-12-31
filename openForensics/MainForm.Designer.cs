@@ -1,4 +1,4 @@
-﻿namespace openForensics
+﻿namespace OpenForensics
 {
 	partial class MainForm
 	{
